@@ -50,7 +50,9 @@ public class lotteryPanel extends JPanel{
             fiveP = rand.nextInt(69)+1;
             sixP = rand.nextInt(26)+1;
             
-            JOptionPane.showMessageDialog(null, "Your numbers are: " + oneP + " " + twoP + " " + threeP + " " + fourP + " " + fiveP + " and your Powerball number is: " + sixP);
+            JOptionPane.showMessageDialog(null, "Your numbers are: " + oneP + " " + twoP + " " 
+                                          + threeP + " " + fourP + " " + fiveP 
+                                          + " and your Powerball number is: " + sixP);
         }
         else if (megaMillions.isSelected())
         {
@@ -61,7 +63,9 @@ public class lotteryPanel extends JPanel{
             fiveM = rand.nextInt(70)+1;
             sixM = rand.nextInt(25)+1;
             
-            JOptionPane.showMessageDialog(null, "Your numbers are: " + oneM + " " + twoM + " " + threeM + " " + fourM + " " + fiveM + " and your Megamillion number is: " + sixM);
+            JOptionPane.showMessageDialog(null, "Your numbers are: " + oneM + " " + twoM 
+                                          + " " + threeM + " " + fourM + " " + fiveM 
+                                          + " and your Megamillion number is: " + sixM);
         }
         return 0;
     }
