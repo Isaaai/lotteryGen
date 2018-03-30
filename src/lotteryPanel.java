@@ -39,7 +39,7 @@ public class lotteryPanel extends JPanel{
         
         if (none.isSelected())
         {
-            JOptionPane.showMessageDialog(null, "You can close the window, thank you!"); 
+            JOptionPane.showMessageDialog(null, "You may close the window, thank you!"); 
         }
         else if (powerBall.isSelected())
         {    
